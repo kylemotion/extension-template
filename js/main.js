@@ -2,12 +2,9 @@
 
     'use strict';
 
-var cs = new CSInterface();
+const cs = new CSInterface();
 
-document.getElementById('btn').addEventListener('click', function(){
-    cs.evalScript('sayHello()', function(res){
-        console.log(res)
-    })
-})
+document.querySelector('button').addEventListener('click', function(evt){
+    cs.evalScript('sayHello("Clicked!")')})
 
 }())

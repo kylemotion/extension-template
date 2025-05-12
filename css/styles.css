@@ -1,7 +1,10 @@
 body {
-    background-color: aqua;
+
+    background-color: black;
 }
 
-h1 {
-   color: blue; 
+button {
+    color: black;
+    background-color: white;
+    border: 1px solid gray;
 }
